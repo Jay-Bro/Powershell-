@@ -1,0 +1,1 @@
+(Get-Command (Read-Host "Enter a PowerShell Cmdlet Name")).parameters.values | select name, aliases
